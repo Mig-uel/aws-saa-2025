@@ -105,3 +105,21 @@ Edge Locations, also known as Points of Presence (PoPs), are locations that deli
   - Amazon CloudFront (Content Delivery Network)
   - AWS Global Accelerator (Improves availability and performance of applications)
   - AWS Lambda@Edge (Run code closer to users for lower latency)
+
+## Quick Tour of the AWS Console
+
+- AWS has Global Services that are not region-scoped, such as:
+
+  - IAM (Identity and Access Management)
+  - Route 53 (DNS Service)
+  - CloudFront (Content Delivery Network)
+  - WAF (Web Application Firewall)
+
+- Most AWS services are region-scoped, meaning they are available in specific regions. Some examples include:
+
+  - EC2 (Elastic Compute Cloud) (Infrastructure as a Service)
+  - Elastic Beanstalk (Platform as a Service)
+  - Lambda (Function as a Service)
+  - Rekognition (Software as a Service)
+
+- Region table can be found at [AWS Global Infrastructure](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/)
